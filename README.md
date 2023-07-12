@@ -1,3 +1,26 @@
+## Избранные курсы
+
+Приложение для размещения и оценки ресурсов для разработки, курсов, книг и прочее.
+Основано на курсе [ulbi](https://ulbitv.ru/frontend)
+
+- Ссылка клиент - [netlify](https://harmonious-heliotrope-135b77.netlify.app/)
+- Ссылка json-server - [vercel](https://production-project-server-opal.vercel.app/)
+
+#### Реквизиты для входа
+
+Приложение работает на json-server, поэтому нельзя редактировать бд. 
+Можно использовать определенных заданных пользователей.
+
+```
+admin 123
+user 123
+```
+
+#### Требования
+
+- Версия Node.js - [17.4.0](https://nodejs.org/en/blog/release/v14.17.0) 
+- Версия npm  - [8.5.1](https://www.npmjs.com/package/npm/v/8.5.1)
+
 ## Запуск проекта
 
 ```

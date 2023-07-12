@@ -8,7 +8,9 @@ function getApiUrl(mode: BuildMode, apiUrl?: string) {
         return apiUrl;
     }
     if (mode === 'production') {
-        return '/api';
+        return 'https://production-project-server-opal.vercel.app/'
+        // TODO: move to environment constants. For hosting case
+        // return '/api';
     }
 
     return 'http://localhost:8000';
