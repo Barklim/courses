@@ -29,7 +29,7 @@ const article = {
         username: 'Ulbi tv',
         avatar: 'https://xakep.ru/wp-content/uploads/2018/05/171485/KuroiSH-hacker.jpg',
     },
-    type: ['IT', 'SCIENCE', 'POLITICS', 'ECONOMICS'],
+    type: ['COURSE', 'OTHER', 'POLITICS', 'BOOK'],
     blocks: [
         {
             id: '1',
