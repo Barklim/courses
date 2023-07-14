@@ -54,6 +54,7 @@ npm run start:dev или npm run start:dev:vite - запуск сервера + 
 - `npm run storybook:build` - Сборка storybook билда
 - `npm run prepare` - прекоммит хуки
 - `npm run generate:slice` - Скрипт для генерации FSD слайсов
+- `npm run generate:slice feature/page/..? name`
 
 ----
 
@@ -209,6 +210,9 @@ Clear.args = {
 который принимает 2 аргумента
 1. Название удаляемого фича-флага
 2. Состояние (on\off)
+```
+npm run remove-feture isArticleRatingEnabled on
+```
 
 ----
 
