@@ -34,6 +34,7 @@ export interface Article {
     user: User;
     subtitle: string;
     img: string;
+    chLink: string;
     views: number;
     createdAt: string;
     type: ArticleType[];

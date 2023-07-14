@@ -71,6 +71,7 @@ const Deprecated = () => {
 
 const Redesigned = () => {
     const article = useSelector(getArticleDetailsData);
+    const { t } = useTranslation();
 
     return (
         <>
@@ -88,6 +89,7 @@ const Redesigned = () => {
                 className={cls.img}
             />
             {article?.blocks.map(renderArticleBlock)}
+            {article?.chLink ? <a href={article?.chLink}>{t('Ссылка')}</a> : null}
         </>
     );
 };

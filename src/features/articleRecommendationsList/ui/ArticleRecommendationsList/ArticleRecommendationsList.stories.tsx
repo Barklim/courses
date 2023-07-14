@@ -20,6 +20,7 @@ const Template: ComponentStory<typeof ArticleRecommendationsList> = (args) => (
 const article: Article = {
     id: '1',
     img: '',
+    chLink: '',
     createdAt: '',
     views: 123,
     user: { id: '1', username: '123' },
